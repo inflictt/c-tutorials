@@ -5,7 +5,7 @@ int main()
     float x, y, add, sub, mult, div;
     printf("CALCULATOR BY SAKSHAM  \nUSER MANUAL: PRESS KEYS ACCORDINGLY \nTO ADD PRESS 1\nTO SUBTRACT PRESS 2\nTO MULTIPLY PRESS 3\nTO DIVIDE PRESS 4\nTO LEAVE PRESS 5 \nPRESS KEY (1-5) = ");
     scanf("%d", &choice);
-    printf("\nENTER THE VALUE OF x=");
+    printf("ENTER THE VALUE OF x=");
     scanf("%f", &x);
     printf("ENTER THE VALUE OF y=");
     scanf("%f", &y);
@@ -16,7 +16,6 @@ int main()
         printf("enter two numbers x and y to add");
         add = x + y;
         printf("%.3f+%.3f = %.3f ",x,y, add);
-
         break;
     case 2:
         printf("Subtraction\n");
